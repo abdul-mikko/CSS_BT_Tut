@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 10px;
+}
+.clear {
+  clear: both;
+  content: "";
+}
+
+.text-primary-color {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.btn:hover {
+  color: #333;
+  background-color: #f7c08a;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-primary {
+  background-color: #f7c08a;
+  color: #333;
+}
+.bg-light {
+  color: #333;
+  background: #f4f4f4;
+}
+.clear {
+  clear: both;
+}
+/* -----------NAVBAR-------------- */
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+header {
+  color: #fff;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(43, 47, 51);
+}
+
+header .logo {
+  float: left;
+}
+header ul {
+  float: right;
+}
+
+header ul li {
+  float: left;
+}
+
+header ul li a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+header ul li a:hover,
+header ul li a.current {
+  background-color: rgb(88, 86, 86);
+}
+
+/* -----------NAVBAR END -------------- */
+
+/* ------------MAIN SECTION START--------- */
+
+.main-img {
+  background-image: url("./img/showcase.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.main-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.main-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* -------------------ASIDE */
+
+.aside {
+  height: 400px;
+}
+aside .info-img {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url("./img/photo-1.jpg") no-repeat;
+}
+
+aside .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 20px;
+  overflow: hidden;
+}
+
+aside .info-content p {
+  padding-bottom: 30px;
+}
+
+/* FEATURES---------------- */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
