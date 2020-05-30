@@ -53,11 +53,24 @@ p {
   color: #333;
 }
 .bg-light {
-  color: #333;
   background: #f4f4f4;
+  color: #333;
 }
 .clear {
   clear: both;
+}
+.py-1 {
+  padding: 10px 0px;
+}
+.py-2 {
+  padding: 20px 0px;
+}
+.py-3 {
+  padding: 30px 0px;
+}
+
+.l-heading {
+  font-size: 40px;
 }
 /* -----------NAVBAR-------------- */
 
@@ -163,4 +176,53 @@ aside .info-content p {
 .footer {
   text-align: center;
   padding: 20px;
+}
+
+/* ABOUT------------------ */
+
+.abt-section-text {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+section .abt-section-img {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+.ma {
+  margin: auto;
+}
+.tc {
+  text-align: center;
+}
+section .abt-section-img img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+aside {
+  height: 600px;
+  padding-top: 100px;
+  background: url("./img/test-bg.jpg") no-repeat center center/cover;
+}
+aside h1 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+aside .test1 img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+aside .test1 {
+  opacity: 0.8;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
