@@ -226,3 +226,32 @@ aside .test1 {
   margin-bottom: 40px;
   border-radius: 5px;
 }
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form p {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  padding: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  border: 1px #ddd solid;
+  padding: 10px;
+}
+#contact-form textarea {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#contact-form textarea:focus,
+#contact-form input:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
