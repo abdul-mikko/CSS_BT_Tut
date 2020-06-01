@@ -74,11 +74,16 @@
   flex: 1;
 }
 
+.blog .row,
+article.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
   height: 100%;
 }
-.solutions .row img {
+.flex-columns .row img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -107,3 +112,41 @@
   background-color: white;
   color: #333;
 }
+
+/* CASES */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.section-header p {
+  margin-bottom: 20px;
+}
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.flex-grid .column {
+  max-width: 25%;
+  flex: 25%;
+  padding: 0 4px;
+}
+
+/* PEOPLE */
+#team img {
+  border-radius: 50%;
+}
+
+/* FORM */
