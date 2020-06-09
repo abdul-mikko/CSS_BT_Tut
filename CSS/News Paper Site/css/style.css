@@ -246,7 +246,7 @@ p {
   height: 50vh;
 }
 #showcase .showcase-content {
-  z-index: 1;
+  z-index: 2;
 }
 
 #showcase .showcase-container p {
